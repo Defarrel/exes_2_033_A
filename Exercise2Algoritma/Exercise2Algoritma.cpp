@@ -42,10 +42,10 @@ void algoritma() {
 		if (defarrel[mid] == n) {
 			cout << "found";
 		}
-		else if (n < defarrel[mid]) {
+		if (n < defarrel[mid]) {
 			upper = mid - 1;
 		}
-		else if (n > defarrel[mid]) {
+		if (n > defarrel[mid]) {
 			lower = mid + 1;
 		}
 		else
